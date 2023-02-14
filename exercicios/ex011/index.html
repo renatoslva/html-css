@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+<h1>Imagens dinâmica</h1>
+<p>Tente abrir esse site em vários dispositivos diferentes ou simplemente aumente ou diminua o tamanho do seu navegador.</p>
+
+<picture>
+    <source media="(max-width:700px )" srcset="imagens/foto-p1.png" type="image/png">
+    <source media="(max-width:1050px )" srcset="imagens/foto-m1.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="imagens flexíveis">
+</picture>
+<h1>Reprozindo Áudio </h1>
+<p>Vamso aprender a reproduzir Áudio em html5.</p>
+<audio src="midia/Born a Rockstar (Instrumental) - NEFFEX.mp3"  controls autoplay loop></audio>
+
+
+<audio preload="metadata"autoplay controls loop>
+    
+    <source src="midia/Breeze - Telecasted.mp3" type="audio/ mpeg"   >
+    <source src="midia/Sailing - Telecasted.mp3" type="audio/ ogg">
+    <source src="midia/Till I Let Go (Instrumental) - NEFFEX.mp3" type="audio/wav"  >
+    <p>Infelismente seu navegador não é compativel com o audio <a href="midia/Born a Rockstar (Instrumental) - NEFFEX.mp3">clique aqui para baixar o audio.</a>
+    </p>
+    
+</audio>
+<h1>
+    inserindo videos direto do youtube
+</h1>
+</body>
+</html>
