@@ -12,6 +12,8 @@ body{
     border: 2px solid black;
     margin: 10px;
     border-radius: 20px;
+    /*background-position: right bottom ;
+    para ver qual canto vai começar a imagen ou oque vc quiser centro, ledo esquerdo ou direito, baixo ou em cima*/
 
 }
 
