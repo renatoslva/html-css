@@ -1,0 +1,29 @@
+#container{
+    background-image: url('target001.png');
+    background-size: 100% 100%;
+
+    position: relative;
+    height: 93vh;
+    padding: 10px;
+    background-color: brown;
+
+
+}
+
+#conteudo{
+    background-image: url('target001.png');
+    background-size: 100% 100%;
+
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: rgba(221, 77, 33, 0.575);
+
+    left: 50%;
+    top: 50%;
+
+   
+    transform: translate(-50%, -50%);
+    /*para centralizar um elemento*/
+
+}
