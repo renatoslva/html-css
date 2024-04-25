@@ -1,0 +1,25 @@
+body{
+    
+    /*background-color: brown;
+    background-image: url(07c1ed8ce44af0ba926fa784ce25ac73.png);
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
+
+      
+    background: black url(07c1ed8ce44af0ba926fa784ce25ac73.png) center center no-repeat fixed;
+    background-size: cover;
+}
+
+
+main{
+ 
+    background-color: rgba(240, 248, 255, 0.822);
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+
+}
