@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(to bottom, rgba(115, 255, 0, 0.507), rgb(4, 0, 255), black);
+    width: auto;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #030000;
+    text-align: center;
+}
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(97, 94, 94);
+    color: aliceblue;
+    
+}
+table{
+    border-collapse: collapse;
+    position: relative;
+   
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px; /*para colar o menu em cima*/
+    
+}
+.pop{
+    width: 200px;
+    background-color: brown;
+
+}
+
+
+th{
+   
+    border: 2px solid black;
+    width: 400px;
+    height: 20px;
+    background-color: cadetblue;
+    
+}
+td{
+    border: 2px solid rgb(48, 46, 46);
+    /*width: 400px;*/
+    height: 20px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+    
+    color: rgb(34, 28, 20);
+
+    
+}
+tbody > tr:nth-child(odd){
+    background-color: rgb(177, 169, 169);
+}
+tbody > tr:nth-child(even){
+    background-color: rgb(236, 234, 234);
+}
+
+.num{
+    text-align: right;
+    padding-right: 10px;
+    
+}
+tfoot{
+    background-color: cadetblue;
+}
+.total{
+    background-color: rgb(211, 22, 22);
+    text-align: right;
+
+}
+p{
+    color: aliceblue;
+}
